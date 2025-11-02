@@ -1,0 +1,77 @@
+# Sensitive information
+*.env
+*.env.local
+*.env.*.local
+.env
+.secret
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Cursor rules (sensitive)
+.cursor/
+
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+.yarn/
+yarn.lock
+package-lock.json
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.vercel/
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+deployments/
+types/
+fhevmTemp/
+*.log
+coverage.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ABI files (generated, will be regenerated)
+**/abi/*.ts
+!**/abi/*.d.ts
+
