@@ -8,9 +8,10 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const deployedVinylRigVote = await deploy("VinylRigVote", {
     from: deployer,
     log: true,
+    waitConfirmations: 1,
   });
 
-  console.log(`VinylRigVote contract: `, deployedVinylRigVote.address);
+  console.log(`VinylRigVote contract deployed at: `, deployedVinylRigVote.address);
 };
 export default func;
 func.id = "deploy_vinylRigVote"; // id required to prevent reexecution
