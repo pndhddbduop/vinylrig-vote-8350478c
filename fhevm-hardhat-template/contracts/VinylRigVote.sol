@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title VinylRig Vote - Anonymous Blind Listening Vote for Vinyl Enthusiasts
 /// @author VinylRig Vote Team
 /// @notice Privacy-preserving voting dApp for audiophile equipment blind testing sessions
+/// @dev Uses FHEVM for encrypted vote aggregation
 contract VinylRigVote is ZamaEthereumConfig {
     // Session states
     enum SessionState {
