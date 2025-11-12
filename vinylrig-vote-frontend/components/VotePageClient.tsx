@@ -8,6 +8,10 @@ import { useFhevm } from "@/fhevm/useFhevm";
 import { useVinylRigVote } from "@/hooks/useVinylRigVote";
 import { Navigation } from "@/components/Navigation";
 
+/**
+ * VotePageClient - Main voting interface component
+ * Handles encrypted vote submission for blind listening sessions
+ */
 export function VotePageClient({ sessionId }: { sessionId: number }) {
   const router = useRouter();
   

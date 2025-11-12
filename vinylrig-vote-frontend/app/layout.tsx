@@ -16,6 +16,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "VinylRig Vote - Anonymous Blind Listening Vote",
   description: "Privacy-preserving voting dApp for audiophile blind listening sessions, powered by FHEVM",
+  keywords: ["FHEVM", "voting", "privacy", "blockchain", "vinyl"],
 };
 
 export default function RootLayout({

@@ -26,6 +26,10 @@ type DecryptedResults = {
 
 const TAG_LABELS = ["Bass", "Midrange", "Treble", "Soundstage", "Detail"];
 
+/**
+ * ResultsCharts - Visualization component for voting results
+ * Displays bar charts and radar charts for session statistics
+ */
 export function ResultsCharts({ results }: { results: DecryptedResults[] }) {
   // Prepare data for average rating bar chart
   const ratingData = results.map((r) => ({
