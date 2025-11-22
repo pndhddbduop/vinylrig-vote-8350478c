@@ -223,4 +223,3 @@ MIT
 ## Acknowledgments
 
 Built with [FHEVM](https://docs.zama.ai/fhevm) by Zama for privacy-preserving on-chain computation.
-
